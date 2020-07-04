@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(0deg,blueviolet,black 20%,blueviolet,black 60%,blueviolet,black);
+    color:white;
+
+}
+header{
+    margin-top: 10px;
+    text-align: center;
+
+}
+.select{
+    text-align: center;
+    margin: 50px auto;
+    height: 30px;
+    border-radius: 30px;
+   
+    
+}
+.select .country_name{
+    width: 50%;
+    height:100%;
+    border-radius: 30px;
+    font-family: 'Concert One',cursive;
+}
+.select .country_name:focus{
+    outline: none;
+}
+.box{
+    width: 33.3%;
+    height: 50px;
+    background-color: white;
+    font-family: 'Concert One',cursive;
+    margin-bottom: 50px; 
+    text-align: center;
+    font-size: larger;
+    box-shadow: 0 8px 16px 3px rgba(0,0,0,0.4);
+    padding: 10px;
+    line-height: 30px;
+    
+    border-radius: 0px 30px;
+}
+/*.data{
+    font-size:larger;
+}*/
+.container{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.a{
+    color: darkblue;
+}
+.b{
+    color: darkblue;
+}
+.c{
+    color: red;
+}
+.d{
+    color:red;
+}
+.e{
+    color: green;
+}
+.f{
+    color: green;
+}
+.data{
+    color:black;
+}
+/*style for navigation bar*/
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    margin:0;
+    background-color: white;
+    height:30px;
+    box-shadow:0 8px 16px 20px rgba(0,0,0,0.4);
+    
+}
+.fb_link a,.insta_link a {
+text-decoration: none;
+color: white;
+padding:0 5px;
+margin: 5px;
+text-align: center;
+background-color: rgb(112, 55, 79);
+    border-radius: 20px;
+    font-size: x-large;
+/*vertical-align: middle;*/
+
+}
+.fb_link,.insta_link{
+    height: 100%;
+    /*margin-left:5px ;*/
+}
+.fa-facebook,.fa-instagram{
+    font-size: x-large;
+    margin: 5px auto;
+}
+.image{
+    margin: 0 auto;
+    text-align: center;
+}
+img{
+    width: 40vw;
+    height: 50vh;
+    border-radius: 50%;
+}
+.safety_rules{
+text-align: center;
+
+
+}
+.gallery{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    color: black;
+    display: block;
+    margin: 30px auto;
+    vertical-align: middle;
+    box-shadow: 3px 8px 16px 7px rgba(0,0,0,0.4);
+    border-radius: 10px;
+
+}
+.gallery .text{
+    padding: 0 10px;
+    font-family: 'Concert One',cursive;
+}
+.gallery .fas{
+    font-size:100px;
+    margin: 40px 0;
+    color: rgb(98, 35, 156);
+}
+@media screen and (max-width:800px){
+    header{
+        font-size: small;
+    }
+    .navbar{
+        height: 25px;
+    }
+    .fb_link a,.insta_link a{
+        font-size: medium;
+    }
+    .fa-facebook,.fa-instagram{
+        font-size:large ;
+    }
+    .select{
+        font-size: x-small;
+        height: 20px;
+    }
+    .container{
+        margin-top: 70px;
+    }
+    .box{
+        font-size: small;
+        height: 30px;
+        line-height: 16px;
+        width: 33.33%;
+        padding: 5px;
+    }
+    .gallery{
+        width:200px;
+        height: 200px;
+        font-size: x-small;
+        margin: 30px auto;
+        border-radius: 10px;
+    }
+    .gallery .fas{
+        font-size: 50px;
+        margin: 20px 0;
+    }
+    .safety_rules{
+        font-size: small;
+    }
+    .gallery .text{
+        margin-bottom: 20px;
+    }
+}
